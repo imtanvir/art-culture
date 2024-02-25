@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - My Simple Web Project</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Art & Culture Hub</h1>
+        <p>Celebrating Diversity in Arts</p>
+    </header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="./gellery.html">Gallery</a>
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main class="container">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or need assistance, feel free to reach out!</p>
+
+        <section>
+            <!-- HTML code -->
+            <form id="contact-form" action="#" method="post">
+                <fieldset class="fieldset-padding">
+                    <legend class="legend">Contact us</legend>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Enter the subject of your message"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" rows="4"
+                            required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" id="submit">Send</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="contact-footer">
+        <p>All right reserved &copy; 2024 <span class="copyright-text">Art & Culture Hub</span></p>
+    </footer>
+</body>
+
+</html>
